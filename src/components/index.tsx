@@ -1,7 +1,7 @@
 import { COMPONENT_CATEGORY, ComponentType } from "@/types";
 import QuestionInput, {
   PropsType as QuestionInputPropsType,
-} from "./QuestionComponents/QuestionInput";
+} from "@/components/QuestionComponents/QuestionInput"
 import QuestionRadio, {
   PropsType as QuestionRadioPropsType,
 } from "./QuestionComponents/QuestionRadio";
