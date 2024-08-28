@@ -59,14 +59,14 @@ export default async function handler(
       const { errno } = data;
       if (errno === 0) {
         /* 如果提交成功，则响应 Success 页面 */
-        res.redirect("/status/success");
+        res.redirect(303, "/status/success");
       } else {
         /* 如果提交失败，则响应 Error 页面 */
-        res.redirect("/status/error");
+        res.redirect(303, "/status/error");
       }
     } catch (err) {
       /* 如果提交失败，则响应 Error 页面 */
-      res.redirect("/status/error");
+      res.redirect(303, "/status/error");
     }
   }
 }
