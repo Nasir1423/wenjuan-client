@@ -1,4 +1,3 @@
-import { QuestionType } from "@/types";
 import instance from "./instance";
 
 /* 获取特定问卷的组件信息 */
